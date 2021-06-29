@@ -1,0 +1,30 @@
+main {
+    width: 500px;
+}
+.container-title h1{
+    font-size: 8rem;
+}
+.avatar img {
+    width: 230px;
+}
+.container h2 {
+    font-size: 3.6rem;
+}
+li p {
+    opacity: 0;
+}
+ul {
+    display: flex;
+    padding: auto;
+    justify-content: center;
+
+}
+button{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    margin: 10px ;
+}
