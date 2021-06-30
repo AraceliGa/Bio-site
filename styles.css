@@ -22,7 +22,6 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3px;
     text-align: center;
 }
 
@@ -54,6 +53,7 @@ main{
 .container h2 {
     font-size: 1.7rem;
 }
+
 .logo img{
     width: 100%;
 }
