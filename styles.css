@@ -14,6 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Open Sans', sans-serif;;
 }
 main{
     width: 300px;
@@ -38,7 +39,7 @@ main{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     padding: auto;
 
 }
@@ -51,16 +52,18 @@ main{
     border-radius: 50%;
 }
 .container h2 {
-    font-size: 2.2rem;
+    font-size: 1.7rem;
 }
 .logo img{
     width: 100%;
 }
 ul{
-    margin: 20px auto;
+    margin: 15px auto;
     list-style: none;
-
-    
+}
+li{
+    display: flex;
+    justify-content: center;
 }
 .emoji {
     font-size: 3.8rem; 
@@ -91,7 +94,4 @@ button{
     cursor: pointer;
     border: none;
     
-}
-button:hover{
-    transform: scale(1.1);
 }
